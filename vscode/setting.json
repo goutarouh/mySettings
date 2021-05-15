@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "git.ignoreWindowsGit27Warning": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.formatting.provider": "black",
+    //ターミナル起動時のパス
+    "terminal.integrated.cwd": "${fileDirname}",
+    //デフォルトはCMD
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe"
+}
